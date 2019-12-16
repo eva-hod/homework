@@ -24,8 +24,15 @@ def statm_param(h):
 h=5000
 print 'h =', h
 param=statm_param(h)
-print param
+print 'T=', param[0]
+print 'P=', param[1]
+print 'ro=', param[2]
+print 'a=', param[3]
 h=8000
 param=statm_param(h)
+print ' '
 print 'h =', h
-print param
+print 'T=', param[0]
+print 'P=', param[1]
+print 'ro=', param[2]
+print 'a=', param[3]
